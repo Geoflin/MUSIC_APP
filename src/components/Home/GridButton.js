@@ -31,5 +31,5 @@ background : radial-gradient(
      }
      &:active::before{
          opacity: 1;
-     }
+     } 
 `;
