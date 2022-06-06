@@ -4,15 +4,13 @@ import GridButton from './GridButton';
 
 import useSounds from 'hooks/useSounds';
 
-const list = ["el1", "el2", "el3", "el4"];
-
 export default function Home() {
-    useSounds();
+    const { buttonList } = useSounds();
     return (
         <Wrapper>
-         <Grid>
-         {list.map((el)=> {
-             return <GridButton key={el}>{el}</GridButton>;
+        <Grid>
+         {buttonList.map(({ soundPlay }, index)=> {
+             return <GridButton key={index}  soundPlay={soundPlay} />;
          })}
          </Grid>
         </Wrapper>
