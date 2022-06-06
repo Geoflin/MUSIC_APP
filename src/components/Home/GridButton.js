@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 
-export default function GridButton() {
-return (<Wrapper></Wrapper>);
+export default function GridButton({ isPlayed = false }) {
+return (<Wrapper isPlayed={isPlayed}></Wrapper>);
 }
 
 const Wrapper = styled.div`
@@ -23,13 +23,21 @@ background : radial-gradient(
          z-index: 0;
          background: radial-gradient(
          circle,
-         rgba(255, 170, 167, 1) 0%,
+         rgba(255, 170, 167, 1) ${(props) => (props.isPlayed ? "20%": "0%")},
          rgba(255, 230, 213, 1) 100%
          );
-         opacity: 0;
+         opacity: ${(props) => (props.isPlayed ? "1" : "0")};
          transition : linear 0.2s;
      }
-     &:active::before{
+     &:hover::before{
          opacity: 1;
-     } 
+     }
+     &:active::before {
+         opacity: 1;
+         background: radial-gradient(
+            circle,
+            rgba(255, 170, 167, 1) 30%,
+            rgba(255, 230, 213, 1) 100%
+            );
+     }
 `;
