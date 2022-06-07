@@ -60,5 +60,6 @@ background : radial-gradient(
          position: absolute;
          right: 12px;
          top: 12px;
+         font-size: 24px;
      }
 `;
