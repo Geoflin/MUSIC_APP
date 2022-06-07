@@ -1,7 +1,11 @@
 import styled from 'styled-components';
 
-export default function GridButton({ isPlayed = false, soundPlay }) {
-return (<Wrapper isPlayed={isPlayed} onClick={soundPlay}></Wrapper>);
+export default function GridButton({ isPlayed = false, soundPlay, id }) {
+return (<Wrapper isPlayed={isPlayed} onClick={soundPlay}>
+    <label onClick={(e) => e.stopPropagation()} htmlFor={id}>🎵</label>
+<input onClick={(e) => e.stopPropagation()} id={id} type="file"/>
+</Wrapper>
+);
 }
 
 const Wrapper = styled.div`
@@ -40,5 +44,13 @@ background : radial-gradient(
             rgba(255, 170, 167, 1) 30%,
             rgba(255, 230, 213, 1) 100%
             );
+     }
+     & input{
+         display: none;
+     }
+     & label{
+         position: absolute;
+         right: 12px;
+         top: 12px;
      }
 `;

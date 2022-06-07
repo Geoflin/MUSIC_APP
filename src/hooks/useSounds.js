@@ -68,13 +68,22 @@ useEffect(() => {
 
 const buttonList = [
 {soundPlay : ()=> soundPlay("C4"),
-isPlayed: isKickPlayed,},
+isPlayed: isKickPlayed,
+id: "kick",
+},
+
 {soundPlay : ()=> soundPlay("D#4"),
-isPlayed: isClapPlayed,},
+isPlayed: isClapPlayed,
+id: "clap",
+},
 {soundPlay : ()=> soundPlay("F#4"),
-isPlayed: isHHPlayed,},
+isPlayed: isHHPlayed,
+id: "hh",
+},
 {soundPlay : ()=> soundPlay("A4"),
-isPlayed: isCastaPlayed,},
+isPlayed: isCastaPlayed,
+id: "casta",
+},
 ];
 
     return { buttonList};
