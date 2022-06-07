@@ -1,9 +1,17 @@
 import styled from 'styled-components';
 
-export default function GridButton({ isPlayed = false, soundPlay, id }) {
-return (<Wrapper isPlayed={isPlayed} onClick={soundPlay}>
-    <label onClick={(e) => e.stopPropagation()} htmlFor={id}>🎵</label>
-<input onClick={(e) => e.stopPropagation()} id={id} type="file"/>
+export default function GridButton({ isPlayed = false, soundPlay, id, handleSampleChange }) {
+return (
+    <Wrapper isPlayed={isPlayed} onClick={soundPlay}>
+    <label onClick={(e) => e.stopPropagation()} htmlFor={id}>
+    🎵
+    </label>
+<input 
+onClick={(e) => e.stopPropagation()} 
+id={id} 
+type="file" 
+onChange={handleSampleChange} 
+/>
 </Wrapper>
 );
 }
