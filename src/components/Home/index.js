@@ -9,8 +9,10 @@ export default function Home() {
     return (
         <Wrapper>
         <Grid>
-         {buttonList.map(({ soundPlay }, index)=> {
-             return <GridButton key={index}  soundPlay={soundPlay} />;
+         {buttonList.map(({ soundPlay, isPlayed }, index)=> {
+             return (
+             <GridButton key={index}  soundPlay={soundPlay} isPlayed={isPlayed} />
+         );
          })}
          </Grid>
         </Wrapper>
