@@ -24,7 +24,7 @@ const GlobalStyle = createGlobalStyle`
      letter-spacing: 2px;
  }
  h1{
-     font-size : 1.6rem;
+     font-size : 1.2rem;
  }
  h2{
      font-size : 1.4rem;

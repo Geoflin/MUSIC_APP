@@ -35,18 +35,32 @@ import Sound_27 from '../../assets/sounds/WHOOSH/SWSH_Whoosh 7 (ID 1800)_LS.wav'
 import Sound_28 from '../../assets/sounds/WHOOSH/SWSH_Whoosh 8 (ID 1801)_LS.wav';
 import Sound_29 from '../../assets/sounds/WHOOSH/SWSH_Whoosh 9 (ID 1802)_LS.wav';
 import Sound_30 from '../../assets/sounds/WHOOSH/SWSH_Whoosh 10 (ID 1798)_LS.wav';
+import { Button } from '@material-ui/core';
 
 export default function Sound_list() {
+    const setTitle = "test";
+
+    
+
 return (
+
     <Wrapper>
+
+    <h1>{setTitle}</h1>
+    <br/>
+
      <ul>
+
       <div>ANIMAUX</div>
       <br/>
 
       <ul>
-
+      
        <li>
-       <a href={Sound_1} download="chat.wav">Chat</a>
+       <label>
+       Chat
+       </label>
+   <Button onChange={event => setTitle(event.target.value)}/>
        </li>
 
        <li>
@@ -209,7 +223,9 @@ return (
      <br/>
 
      </ul>
-    </Wrapper>);
+    </Wrapper>
+    
+    );
 }
 
 const Wrapper = styled.ul`

@@ -11,6 +11,12 @@ return (
        <Link to="/">
        <MenuEl isCurrentPage={location.pathname === "/"}>Home</MenuEl>
        </Link>
+       <Link to="/library">
+       <MenuEl isCurrentPage={location.pathname === "/library"}>Library</MenuEl>
+       </Link>
+       <Link to="/Sound_Test">
+       <MenuEl isCurrentPage={location.pathname === "/Sound_Test"}>Sound Test</MenuEl>
+       </Link>
        <Link to="/about">
        <MenuEl isCurrentPage={location.pathname === "/about"}>About</MenuEl>
        </Link>
@@ -35,9 +41,10 @@ border-bottom: solid 1px;
  }
 `;
 
-const MenuEl = styled.p`
+const MenuEl = styled.span`
 font-size: 18px;
 padding-bottom: 2px;
+margin-left: 40px;
 border-bottom: solid 2px ${(props)=>(props.isCurrentPage ? "": "transparent")};
 &:hover{
   border-bottom: solid 2px;

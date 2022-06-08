@@ -1,13 +1,18 @@
 import styled from 'styled-components';
 
-import GridButton from './GridButton';
+import Sound_list from './Sound_list';
 
-import useSounds from 'hooks/useSounds';
+import GridButton from './Sound_play';
 
-export default function Home() {
+import useSounds from 'hooks/testSounds';
+
+import Form from './formulaire';
+
+export default function Library() {
     const { buttonList } = useSounds();
     return (
-        <Wrapper>
+        /*<Wrapper>
+        <Sound_list />
         <Grid>
          {buttonList.map(({ soundPlay, isPlayed, id, handleSampleChange }, index)=> {
              return (
@@ -20,7 +25,11 @@ export default function Home() {
              />
          );
          })}
-         </Grid> 
+         </Grid>
+         <Form /> 
+        </Wrapper>*/
+        <Wrapper>
+         <Form /> 
         </Wrapper>
         );
 }
@@ -35,7 +44,6 @@ const Grid = styled.div`
 display: grid;
 width : 400px;
 height: 400px;
-grid-template-columns : 1fr 1fr;
 column-gap: 12px;
 row-gap: 12px;
 padding: 24px;

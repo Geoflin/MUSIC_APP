@@ -4,9 +4,6 @@ export default function GridButton({ isPlayed = false, soundPlay, id, handleSamp
 return (
     <Wrapper isPlayed={isPlayed} onClick={soundPlay}>
 
-    <label onClick={(e) => e.stopPropagation()} htmlFor={id}>
-    🎵
-    </label>
 <input 
 onClick={(e) => e.stopPropagation()} 
 id={id} 

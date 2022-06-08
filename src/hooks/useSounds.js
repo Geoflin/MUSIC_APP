@@ -100,6 +100,7 @@ isPlayed: isCastaPlayed,
 id: "casta",
 handleSampleChange: (e) => handleSampleChange("A4", e.target.files[0]),
 },
+
 ];
 
     return { buttonList};
