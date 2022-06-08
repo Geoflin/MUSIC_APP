@@ -6,6 +6,11 @@ import clap from "assets/sounds/clap.wav";
 import hh from "assets/sounds/hh.wav";
 import casta from "assets/sounds/casta.wav";
 
+import Sound_1 from 'assets/sounds/ANIMAUX/chat.wav';
+import Sound_2 from 'assets/sounds/ANIMAUX/chevre.wav';
+import Sound_3 from 'assets/sounds/ANIMAUX/chien-4.wav';
+import Sound_4 from 'assets/sounds/ANIMAUX/dindon.wav';
+
 export default function useSounds() {
     const mySampler = useRef(null);
 

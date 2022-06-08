@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
-export default function GridButton({ isPlayed = false, soundPlay, id, handleSampleChange }) {
+export default function GridButton({ isPlayed = false, soundPlay, id, handleSampleChange, handleSampleChange_2 }) {
 return (
     <Wrapper isPlayed={isPlayed} onClick={soundPlay}>
+
     <label onClick={(e) => e.stopPropagation()} htmlFor={id}>
     🎵
     </label>
@@ -12,6 +13,17 @@ id={id}
 type="file" 
 onChange={handleSampleChange} 
 />
+
+<label2 onClick={(e) => e.stopPropagation()} htmlFor={id}>
+🎶
+</label2>
+<input 
+onClick={(e) => e.stopPropagation()} 
+id={id} 
+type="file" 
+onChange={handleSampleChange_2} 
+/>
+
 </Wrapper>
 );
 }
@@ -62,4 +74,10 @@ background : radial-gradient(
          top: 12px;
          font-size: 24px;
      }
+     & label2{
+        position: absolute;
+        left: 12px;
+        top: 0px;
+        font-size: 24px;
+    }
 `;

@@ -50,7 +50,7 @@ return (
        </li>
 
        <li>
-       <a href={Sound_2} download="Chevre.wav">Chevre</a>s
+       <a href={Sound_2} download="Chevre.wav">Chevre</a>
        </li>
 
        <li>

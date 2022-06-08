@@ -2,6 +2,7 @@ import styled from 'styled-components';
 
 import GridButton from './GridButton';
 import Sound_list from '../Aside/Sound_list';
+import List from '../List/List';
 
 import useSounds from 'hooks/useSounds';
 
@@ -10,6 +11,7 @@ export default function Home() {
     return (
         <Wrapper>
         <Sound_list />
+        <List />
         <Grid>
          {buttonList.map(({ soundPlay, isPlayed, id, handleSampleChange }, index)=> {
              return (
