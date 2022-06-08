@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 import GridButton from './GridButton';
+import Sound_list from '../Aside/Sound_list';
 
 import useSounds from 'hooks/useSounds';
 
@@ -8,6 +9,7 @@ export default function Home() {
     const { buttonList } = useSounds();
     return (
         <Wrapper>
+        <Sound_list />
         <Grid>
          {buttonList.map(({ soundPlay, isPlayed, id, handleSampleChange }, index)=> {
              return (
@@ -20,7 +22,7 @@ export default function Home() {
              />
          );
          })}
-         </Grid>
+         </Grid> 
         </Wrapper>
         );
 }
