@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export default function GridButton({ isPlayed = false, soundPlay, id, handleSampleChange }) {
+export default function GridButton({ isPlayed = false, soundPlay, id }) {
 return (
     <Wrapper isPlayed={isPlayed} onClick={soundPlay}>
 
@@ -8,7 +8,6 @@ return (
 onClick={(e) => e.stopPropagation()} 
 id={id} 
 type="file" 
-onChange={handleSampleChange} 
 />
 
 </Wrapper>

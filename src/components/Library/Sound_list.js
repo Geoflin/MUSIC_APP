@@ -44,170 +44,170 @@ return (
 
      <ul>
 
-      <div>ANIMAUX</div>
+      <div>🦆ANIMAUX</div>
       <br/>
 
       <ul>
       
        <li>
 
-       <a href={Sound_1} download="chat.wav">Chat</a>
+       <a href={Sound_1} download="chat.wav">Chat🔻</a>
        </li>
 
        <li>
-       <a href={Sound_2} download="Chevre.wav">Chevre</a>
+       <a href={Sound_2} download="Chevre.wav">Chevre🔻</a>
        </li>
 
        <li>
-       <a href={Sound_3} download="Chien.wav">Chien</a>
+       <a href={Sound_3} download="Chien.wav">Chien🔻</a>
        </li>
 
        <li>
-       <a href={Sound_4} download="Dindon.wav">Dindon</a>
+       <a href={Sound_4} download="Dindon.wav">Dindon🔻</a>
        </li>
 
       </ul>
       <br/>
 
-      <div>BEEP</div>
+      <div>🔉BEEP</div>
       <br/>
 
       <ul>
 
       <li>
-      <a href={Sound_5} download="Beep_de_caisse.wav">Beep de caisse</a>
+      <a href={Sound_5} download="Beep_de_caisse.wav">Beep de caisse🔻</a>
       </li>
 
       <li>
-      <a href={Sound_6} download="Beep_horloge.wav">Beep horloge</a>
+      <a href={Sound_6} download="Beep_horloge.wav">Beep horloge🔻</a>
       </li>
 
       <li>
-      <a href={Sound_7} download="Bip_telephone_1.wav">Bip téléphone 1</a>
+      <a href={Sound_7} download="Bip_telephone_1.wav">Bip téléphone 1🔻</a>
       </li>
 
       <li>
-      <a href={Sound_8} download="Bip_telephone_2.wav">Bip téléphone 2</a>
+      <a href={Sound_8} download="Bip_telephone_2.wav">Bip téléphone 2🔻</a>
       </li>
 
      </ul>
      <br/>
 
-      <div>EPEE</div>
+      <div>⚔EPEE</div>
       <br/>
 
       <ul>
 
       <li>
-      <a href={Sound_9} download="Slash_EPEE_1.wav">Slash EPEE 1</a>
+      <a href={Sound_9} download="Slash_EPEE_1.wav">Slash EPEE 1🔻</a>
       </li>
 
       <li>
-      <a href={Sound_10} download="Slash_EPEE_2.wav">Slash EPEE 2</a>
+      <a href={Sound_10} download="Slash_EPEE_2.wav">Slash EPEE 2🔻</a>
       </li>
 
       <li>
-      <a href={Sound_11} download="Slash_EPEE_3.wav">Slash EPEE 3</a>
+      <a href={Sound_11} download="Slash_EPEE_3.wav">Slash EPEE 3🔻</a>
       </li>
 
      </ul>
      <br/>
     
-      <div>LAME DE COUTEAU</div>
+      <div>🗡LAME DE COUTEAU</div>
       <br/>
 
        <ul>
 
        <li>
-       <a href={Sound_12} download="Slash_COUTEAU_1.wav">Slash COUTEAU 1</a>
+       <a href={Sound_12} download="Slash_COUTEAU_1.wav">Slash COUTEAU 1🔻</a>
        </li>
 
        <li>
-       <a href={Sound_13} download="Slash_COUTEAU_2.wav">Slash COUTEAU 2</a>
+       <a href={Sound_13} download="Slash_COUTEAU_2.wav">Slash COUTEAU 2🔻</a>
        </li>
 
        <li>
-       <a href={Sound_14} download="Slash_COUTEAU_3.wav">Slash COUTEAU 3</a>
+       <a href={Sound_14} download="Slash_COUTEAU_3.wav">Slash COUTEAU 3🔻</a>
        </li>
 
        <li>
-       <a href={Sound_15} download="Slash_COUTEAU_4.wav">Slash COUTEAU 4</a>
+       <a href={Sound_15} download="Slash_COUTEAU_4.wav">Slash COUTEAU 4🔻</a>
        </li>
 
        <li>
-       <a href={Sound_16} download="Slash_COUTEAU_5.wav">Slash COUTEAU 5</a>
+       <a href={Sound_16} download="Slash_COUTEAU_5.wav">Slash COUTEAU 5🔻</a>
        </li>
 
        <li>
-       <a href={Sound_17} download="Slash_COUTEAU_6.wav">Slash COUTEAU 6</a>
+       <a href={Sound_17} download="Slash_COUTEAU_6.wav">Slash COUTEAU 6🔻</a>
        </li>
 
        <li>
-       <a href={Sound_18} download="Slash_COUTEAU_7.wav">Slash COUTEAU 7</a>
+       <a href={Sound_18} download="Slash_COUTEAU_7.wav">Slash COUTEAU 7🔻</a>
        </li>
 
        <li>
-       <a href={Sound_19} download="Slash_COUTEAU_8.wav">Slash COUTEAU 8</a>
+       <a href={Sound_19} download="Slash_COUTEAU_8.wav">Slash COUTEAU 8🔻</a>
        </li>
 
       </ul>
       <br/>
 
-      <div>SERPETTE</div>
+      <div>🦯SERPETTE</div>
       <br/>
 
       <ul>
 
       <li>
-      <a href={Sound_20} download="Serpette_Pierre_1.wav">Serpette Pierre 1</a>
+      <a href={Sound_20} download="Serpette_Pierre_1.wav">Serpette Pierre 1🔻</a>
       </li>
 
       <li>
-      <a href={Sound_21} download="Serpette_Pierre_2.wav">Serpette Pierre 2</a>
+      <a href={Sound_21} download="Serpette_Pierre_2.wav">Serpette Pierre 2🔻</a>
       </li>
 
       <li>
-      <a href={Sound_22} download="Serpette_Pierre_3.wav">Serpette Pierre 3</a>
+      <a href={Sound_22} download="Serpette_Pierre_3.wav">Serpette Pierre 3🔻</a>
       </li>
 
      </ul>
      <br/>
     
-      <div>WHOOSH</div>
+      <div>🏹WHOOSH</div>
       <br/>
 
       <ul>
 
       <li>
-      <a href={Sound_23} download="WHOOSH_3.wav">WHOOSH 3</a>
+      <a href={Sound_23} download="WHOOSH_3.wav">WHOOSH 3🔻</a>
       </li>
 
       <li>
-      <a href={Sound_24} download="WHOOSH_4.wav">WHOOSH 4</a>
+      <a href={Sound_24} download="WHOOSH_4.wav">WHOOSH 4🔻</a>
       </li>
 
       <li>
-      <a href={Sound_25} download="WHOOSH_5.wav">WHOOSH 5</a>
+      <a href={Sound_25} download="WHOOSH_5.wav">WHOOSH 5🔻</a>
       </li>
 
       <li>
-      <a href={Sound_26} download="WHOOSH_6.wav">WHOOSH 6</a>
+      <a href={Sound_26} download="WHOOSH_6.wav">WHOOSH 6🔻</a>
       </li>
 
       <li>
-      <a href={Sound_27} download="WHOOSH_7.wav">WHOOSH 7</a>
+      <a href={Sound_27} download="WHOOSH_7.wav">WHOOSH 7🔻</a>
       </li>
 
       <li>
-      <a href={Sound_28} download="WHOOSH_8.wav">WHOOSH 8</a>
+      <a href={Sound_28} download="WHOOSH_8.wav">WHOOSH 8🔻</a>
       </li>
 
       <li>
-      <a href={Sound_29} download="WHOOSH_9.wav">WHOOSH 9</a>
+      <a href={Sound_29} download="WHOOSH_9.wav">WHOOSH 9🔻</a>
       </li>
 
       <li>
-      <a href={Sound_30} download="WHOOSH_10.wav">WHOOSH 10</a>
+      <a href={Sound_30} download="WHOOSH_10.wav">WHOOSH 10🔻</a>
       </li>
 
      </ul>
@@ -217,10 +217,12 @@ return (
     </Wrapper>);
 }
 
-const Wrapper = styled.ul`
- ul{
-    list-style: initial;
+const Wrapper = styled.div`
+width: 100%;
+display: flex;
+justify-content: center;
+ & ul{
+    padding: 0.2rem;
  }
-
 `;
 

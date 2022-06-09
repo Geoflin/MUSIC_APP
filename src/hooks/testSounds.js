@@ -7,12 +7,10 @@ import Sound_3 from 'assets/sounds/ANIMAUX/chien-4.wav';
 import Sound_4 from 'assets/sounds/ANIMAUX/dindon.wav';
 
 export default function useSounds() {
+    
     const mySampler = useRef(null);
 
-    const [isKickPlayed, isKickPlayedChange] = useState(false);
-    const [isClapPlayed, isClapPlayedChange] = useState(false);
-    const [isHHPlayed, isHHPlayedChange] = useState(false);
-    const [isCastaPlayed, isCastaPlayedChange] = useState(false);
+    const [isKickPlayed] = useState(false);
 
     useEffect(() => {
     const sampler = new Tone.Sampler({
@@ -28,13 +26,24 @@ function soundPlay(note){
     mySampler.current.triggerAttackRelease([note], 4);
 }
 
+function handleSampleChange(note) {
+    let fileURL = Sound_2;
+    let buffer = new Tone.Buffer(fileURL);
+   mySampler.current.add(note, buffer, () =>
+    alert("Sample successfully changed")
+   );
+}
+
 const buttonList = [
 {soundPlay : ()=> soundPlay("C4"),
 isPlayed: isKickPlayed,
 id: "kick",
+handleSampleChange: (e) => handleSampleChange("C4", e.target.files[0]),
 },
 
 ];
 
-    return { buttonList};
+    return(
+          { buttonList}
+    );
 }

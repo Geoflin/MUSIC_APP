@@ -7,15 +7,13 @@ export default function Header() {
 return (
     <Wrapper>
       <h1>Our super music app</h1>
+
       <nav>
        <Link to="/">
        <MenuEl isCurrentPage={location.pathname === "/"}>Home</MenuEl>
        </Link>
        <Link to="/library">
        <MenuEl isCurrentPage={location.pathname === "/library"}>Library</MenuEl>
-       </Link>
-       <Link to="/Sound_Test">
-       <MenuEl isCurrentPage={location.pathname === "/Sound_Test"}>Sound Test</MenuEl>
        </Link>
        <Link to="/about">
        <MenuEl isCurrentPage={location.pathname === "/about"}>About</MenuEl>

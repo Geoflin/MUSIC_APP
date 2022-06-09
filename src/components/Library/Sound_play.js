@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export default function GridButton({ isPlayed = false, soundPlay, id, handleSampleChange, handleSampleChange_2 }) {
+export default function GridButton({ isPlayed = false, soundPlay, id, handleSampleChange }) {
 return (
     <Wrapper isPlayed={isPlayed} onClick={soundPlay}>
 

@@ -29,6 +29,13 @@ const GlobalStyle = createGlobalStyle`
  h2{
      font-size : 1.4rem;
  }
+ a{
+    text-decoration:none;
+    color : ${(props) => props.theme.mainColor};
+ }
+  ul{
+    list-style: initial;
+ }
 `;
 
 export default GlobalStyle;

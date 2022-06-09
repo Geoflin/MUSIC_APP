@@ -8,7 +8,8 @@ export default function Home() {
     const { buttonList } = useSounds();
     return (
         <Wrapper>
-        <Grid>
+        
+         <Grid>
          {buttonList.map(({ soundPlay, isPlayed, id, handleSampleChange }, index)=> {
              return (
              <GridButton 
@@ -29,6 +30,9 @@ const Wrapper = styled.div`
 width: 100%;
 display: flex;
 align-items: center;
+ & h1{
+    float: none;
+ }
 `;
 
 const Grid = styled.div`

@@ -1,12 +1,10 @@
-import React from 'react';
+import React, { Component } from 'react';
 
-import styled from 'styled-components';
-
-export default class Form extends React.Component {
+export default class Form extends Component {
 
     constructor(props) {
           super(props);
-          this.state = {value: 'coconut'};
+          this.state = {value: 'Sound_1'};
       
           this.handleChange = this.handleChange.bind(this);
           this.handleSubmit = this.handleSubmit.bind(this);
@@ -17,30 +15,26 @@ export default class Form extends React.Component {
         }
       
         handleSubmit(event) {
-          alert('Votre parfum favori est : ' + this.state.value);
           event.preventDefault();
+          const data = JSON.stringify(this.state)
+          console.log(data)
         }
       
-        render() {
+        render(handleSampleChange) {
           return (
-            <form onSubmit={this.handleSubmit}>
+            <form action="my_redirect_url" method="get" onSubmit={this.handleSubmit}>
               <label>
                 Choisissez votre parfum favori :
                 <select value={this.state.value} onChange={this.handleChange}>
-                  <option value="grapefruit">Pamplemousse</option>
-                  <option value="lime">Citron vert</option>
-                  <option value="coconut">Noix de coco</option>
-                  <option value="mango">Mangue</option>
+                  <option value="Sound_1">Sound_1</option>
+                  <option value="Sound_2">Sound_2</option>
+                  <option value="Sound_3">Sound_3</option>
+                  <option value="Sound_4">Sound_4</option>
                 </select>
               </label>
-              <input type="submit" value="Envoyer" />
+              <input type="submit" value="Envoyer" onChange={handleSampleChange} />
+              <h1>{this.state.value}</h1>
             </form>
           );
         }
       }
-
-const Wrapper = styled.div`
-width: 100%;
-display: flex;
-align-items: center;
-`;

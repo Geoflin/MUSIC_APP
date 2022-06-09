@@ -11,8 +11,8 @@ import Form from './formulaire';
 export default function Library() {
     const { buttonList } = useSounds();
     return (
-        /*<Wrapper>
-        <Sound_list />
+        //<Sound_list />
+        <Wrapper>
         <Grid>
          {buttonList.map(({ soundPlay, isPlayed, id, handleSampleChange }, index)=> {
              return (
@@ -26,10 +26,9 @@ export default function Library() {
          );
          })}
          </Grid>
+         
          <Form /> 
-        </Wrapper>*/
-        <Wrapper>
-         <Form /> 
+         
         </Wrapper>
         );
 }
