@@ -35,7 +35,6 @@ import Sound_27 from '../../assets/sounds/WHOOSH/SWSH_Whoosh 7 (ID 1800)_LS.wav'
 import Sound_28 from '../../assets/sounds/WHOOSH/SWSH_Whoosh 8 (ID 1801)_LS.wav';
 import Sound_29 from '../../assets/sounds/WHOOSH/SWSH_Whoosh 9 (ID 1802)_LS.wav';
 import Sound_30 from '../../assets/sounds/WHOOSH/SWSH_Whoosh 10 (ID 1798)_LS.wav';
-import { Button } from '@material-ui/core';
 
 export default function Sound_list() {
     const setTitle = "test";
@@ -59,8 +58,7 @@ return (
        <li>
        <label>
        Chat
-       </label>
-   <Button onChange={event => setTitle(event.target.value)}/>
+       </label>np
        </li>
 
        <li>
