@@ -1,0 +1,101 @@
+Update music app:
+
+1: Liste d'instruments
+a: liste à télécharger
+
+2: notice utilisation bouton
+
+3: About page:
+ a: presentation appli
+ b: github
+ c: author
+
+4: Afficher touche
+
+5: Nommer la touche
+
+6: Replier + déplier liste
+
+
+
+
+
+Cette application permet de:
+
+-jouer 4 notes de musiques de votre choix simultanément (voir page "Home")
+-télécharger des son cours pour ensuite les jouer dans Home (voir page "Library")
+
+
+Mode d'emploi:
+
+1: Dans page "Home":
+
+a : jouez les sons de votre choix avec la souris ou le clavier (touche a, z, e et r)
+
+b : Rajoutez le son de votre choix en cliquant sur la note de musqiue de chaque touche
+
+2: Dans page "Library":
+
+-Cliquez sur les 🔻 pour télécharger les son de votre choix
+
+
+Github:
+
+https://github.com/Geoflin/MUSIC_APP.git
+
+
+Codeur: Geoffrey
+
+
+
+This application allows to:
+
+-play 4 music notes of your choice simultaneously (see page "Home")
+-download courses and then play them in Home (see "Library" page)
+
+
+
+Instructions for use:
+
+
+1: In "Home" page:
+
+
+a: play the sounds of your choice with the mouse or keyboard (a, z, e and r key)
+
+b: Add the sound of your choice by clicking on the musqiue note of each key
+
+2: In "Library" page:
+
+-Click on the 🔻 to download the sound of your choice
+
+
+Github:
+
+https://github.com/Geoflin/MUSIC_APP.git
+
+
+Developer: Geoffrey
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
